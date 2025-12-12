@@ -1,0 +1,18 @@
+{
+  "name": "Transit Tracker (64x32) - Hebrew Support",
+  "version": "custom-hebrew",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "firmware-64x32.factory.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
+

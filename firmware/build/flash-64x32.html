@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash Transit Tracker (64x32) - Hebrew Support</title>
+  <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #00a700;
+    }
+    .info-box {
+      background: #f5f5f5;
+      border-left: 4px solid #00a700;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    esp-web-install-button {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flash Transit Tracker Firmware (64x32)</h1>
+  <h2>Hebrew Font Support + RTL Mode</h2>
+  
+  <div class="info-box">
+    <h3>Before You Start:</h3>
+    <ul>
+      <li>Use Google Chrome or Microsoft Edge browser</li>
+      <li>Connect your Transit Tracker to your computer via USB</li>
+      <li>This firmware includes Hebrew font support (ChavaRegular) and an RTL Mode switch</li>
+      <li>Compatible with 64x32 displays (2 panels, 128x32 total)</li>
+    </ul>
+  </div>
+
+  <esp-web-install-button manifest="manifest-64x32.json"></esp-web-install-button>
+
+  <div class="info-box">
+    <h3>After Flashing:</h3>
+    <ol>
+      <li>The device will reboot and create a WiFi access point</li>
+      <li>Connect to the "transit-tracker" network</li>
+      <li>Configure your WiFi credentials through the captive portal</li>
+      <li>Access the device's web interface to configure routes</li>
+      <li>Enable "RTL Mode" from the configuration if needed for Hebrew text</li>
+    </ol>
+  </div>
+
+  <h3>Features in This Build:</h3>
+  <ul>
+    <li>✅ Hebrew character support (all Hebrew letters)</li>
+    <li>✅ RTL Mode configuration switch (for future use)</li>
+    <li>✅ All standard Transit Tracker features</li>
+    <li>⚠️ Note: Full RTL text rendering requires component modifications (planned for future update)</li>
+  </ul>
+</body>
+</html>
+
