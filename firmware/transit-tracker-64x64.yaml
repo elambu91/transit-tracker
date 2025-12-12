@@ -272,10 +272,11 @@ display:
 font:
   - file: "fonts/ChavaRegular.ttf"
     id: pixolletta
-    size: 10
+    size: 8
     glyphs:
-      - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:;!?()"'-+/*=%@#[]{}<>|&^~
+      - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:;!?()"'-+/*=%@#[]{}<>|&^
       - אבגדהוזחטיכךלמםנןסעפףצץקרשת
+      - ←↑→↓↔↕
       - " "
 
 time:
